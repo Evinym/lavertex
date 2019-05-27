@@ -1,0 +1,19 @@
+CREATE DATABASE loginsystemtut;
+
+use loginsystemtut;
+
+CREATE TABLE users (
+	idUsers int(11) AUTO_INCREMENT PRIMARY KEY NOT NULL,
+	uidUsers TINYTEXT NOT NULL,
+	emailUsers TINYTEXT NOT NULL,
+	pwdUsers LONGTEXT NOT NULL
+);
+
+CREATE TABLE adplaning (
+id INT(11) UNSIGNED AUTO_INCREMENT PRIMARY KEY, 
+	numcoiffure VARCHAR(10) NOT NULL,
+	date DATE NOT NULL,
+	hour TIME NOT NULL,
+	surname VARCHAR(30) NOT NULL,
+	passwordd VARCHAR(30) NOT NULL
+);

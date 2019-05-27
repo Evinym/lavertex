@@ -1,0 +1,25 @@
+/* ------------------------------------------- */
+/* ---------------- SLIDERS ----------------- */
+/* ----------------------------------------- */
+
+.ContainerSlide{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+}
+
+.jumboSlide{
+    background-color: aquamarine;
+    width: 90%;
+}
+
+.styleSlide{
+    height: 300px;
+    width: 100%;    
+}
+
+.slideIcon{
+    height: 200px;
+    width: 200px;
+}

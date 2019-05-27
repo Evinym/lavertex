@@ -1,0 +1,160 @@
+/* ------------------------------------------- */
+/* ----------------- LOGO ------------------- */
+/* ----------------------------------------- */
+.logo-num{
+    height: 15vh;
+    width: 15vh;   
+}
+.imgslide-num{
+    height: 25vh;
+    width: 35vh;   
+}
+
+/* ------------------------------------------- */
+/* --------------  NAV HEADER  -------------- */
+/* ----------------------------------------- */
+.Napp-header {
+  background-color: #282c34;
+  border-radius: 3px;
+  min-height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  list-style: none;
+}
+.Napp-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* ------------------------------------------- */
+/* ---------------- BUTTONS ----------------- */
+/* ----------------------------------------- */
+.allButton {
+  background-color: #3e8e41; /* Green */
+  border-radius: 5px;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.allButton:active {
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.everyButton:hover {
+  background-color: #4CAF50;
+  color: white;
+  border: 2px solid #4CAF50;
+}
+.button2Conexion:hover {
+  background-color: #008CBA;
+  color: white;
+  border: 2px solid #008CBA;
+}
+.buttonDconexion:hover {
+  background-color: rgb(186, 0, 40);
+  color: white;
+  border: 2px solid rgb(186, 0, 40);
+}
+
+/* ------------------------------------------- */
+/* --------------- JUMBOTRON ---------------- */
+/* ----------------------------------------- */
+#TitreJKM{
+    border-bottom: 2px solid white;
+    border-top: 2px solid white;
+    color: white;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-top: 0%;
+    font-size: 4em;
+    font-family: 'Kaushan Script', cursive;
+    font-weight: lighter;
+}
+.jumboJKM{
+    padding-top: 7%;
+    background-color: #282c34;
+    width: 90%;
+}
+#SousTitreJKM{
+    padding-top: 2%;
+    font-size: 1.5em;
+    color: white;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    font-family: 'Quicksand', sans-serif;
+}
+.Jumbo-Author{
+    color: grey;
+    font-family: 'Quicksand', sans-serif;
+    font-style: italic;
+    text-align: end;
+    padding-right: 30%;
+    font-size: 12px;
+}
+.imgJKM{
+  width: 5em;
+  background-color: grey;
+  border-radius:  100%;
+  margin-top: 45px;
+  padding-left: 1em;
+}
+.ContainerJKM{
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  flex-direction: column;
+}
+.ContainerJKM > p{
+  text-align: center;
+  width: 55%;
+}
+.ContainerJKM > h1{
+  color: grey;
+  font-family: 'Kaushan Script', cursive;
+}
+.ContainerJKM > h2{
+    color: grey;
+    font-family: 'Kaushan Script', cursive;
+}
+.lumine {
+    animation-name: luminos;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    -webkit-animation-name: luminos; /* Safari 4.0 - 8.0 */
+    -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 5s; /* Safari 4.0 - 8.0 */
+  }
+  
+  /* Safari 4.0 - 8.0 */
+  @-webkit-keyframes luminos {
+  0%   { color: grey;}
+  25%  { color: red;}
+  50%  { color: ivory;}
+  75%  { color: green;}
+  100% { color: grey;}
+  }
+  
+  /* Standard syntax */
+  @keyframes luminos {
+  0%   { color: ivory;}
+  25%  { color: red;}
+  50%  { color: ivory;}
+  75%  { color: green;}
+  100% { color: ivory;}
+}
